@@ -33,9 +33,6 @@ Here’s what you’ll find inside:
 
 ---
 
-## ☁️ Live Demo
-Check it out here:  
-👉 **[View Portfolio](https://AyushiiDhiman.github.io/portfolio/)**
 
 ---
 
