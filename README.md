@@ -32,24 +32,7 @@ Here’s what you’ll find inside:
 - A sprinkle of love 💜
 
 ---
-## 📸 Portfolio Screenshots
 
-### Intro Screen
-![Intro](assets/intro1.jpeg)
-![Intro](assets/intro2.jpeg)
-
-### Projects Showcase
-![Projects](assets/projects.png)
-
-### Certificates Slider
-![Certificates](assets/certificates.png)
-
-### Contact Section
-![Contact](assets/contact.png)
-
-
-
----
 
 ## 🌸 Let’s Connect
 If you liked my work or just want to say hi 👋  
