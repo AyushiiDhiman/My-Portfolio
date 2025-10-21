@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ayushi Dhiman — Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- INTRO OVERLAY -->
+  <div id="intro" aria-hidden="false">
+    <h1 class="intro-text"> Hello — I'm <span>Ayushi</span></h1>
+    <p class="intro-sub">Aspiring CSE Engineer · AI & ML Enthusiast · Web Developer</p>
+    <button id="enter-btn" class="intro-btn" aria-label="Enter portfolio">✨ Enter Portfolio</button>
+  </div>
+
+  <!-- MAIN CONTENT (hidden until enter) -->
+  <div id="main-content" style="display:none;">
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">Ayushi<span> .</span></div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-text">
+          <h1>Hi, I'm <span>Ayushi Dhiman</span></h1>
+          <p>Building small, meaningful projects — learning AI/ML, web dev, and system design.</p>
+          <a href="#projects" class="cta">Explore Projects →</a>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Tic Tac Toe</h3>
+            <p>Interactive JavaScript Tic Tac Toe game.</p>
+            <a class="project-btn" href="https://github.com/AyushiiDhiman/TIC-TAC-TOE-GAME" target="_blank" rel="noopener">View Code <span>↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <h3>Rock Paper Scissors</h3>
+            <p>Classic RPS game in JavaScript with UI.</p>
+            <a class="project-btn" href="https://github.com/AyushiiDhiman/ROCK-PAPER-SCISSOR-GAME" target="_blank" rel="noopener">View Code <span>↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <h3>Currency Converter</h3>
+            <p>Simple, user-friendly currency conversion web app.</p>
+            <a class="project-btn" href="https://github.com/AyushiiDhiman/CURRENCY-CONVERTER" target="_blank" rel="noopener">View Code <span>↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <h3>Habit Tracker (C++)</h3>
+            <p>Console-based habit tracking application</p>
+            <a class="project-btn" href="https://github.com/AyushiiDhiman/Habit-tracker-" target="_blank" rel="noopener">View Code <span>↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <h3>Grocery Management System (C)</h3>
+            <p>Console-based inventory & billing system with file handling.</p>
+            <a class="project-btn" href="https://github.com/AyushiiDhiman/Grocery-Management-System" target="_blank" rel="noopener">View Code <span>↗</span></a>
+          </article>
+
+          <article class="project-card">
+            <h3>API Project</h3>
+            <p>Small API used to fetch/send/process data (Postman tests).</p>
+            <a class="project-btn" href="https://github.com/AyushiiDhiman/postman-api-project" target="_blank" rel="noopener">View Code <span>↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <!-- CERTIFICATES SLIDER -->
+      <section id="Certificates" class="certificates">
+        <h2>Certificates</h2>
+        <div class="cert-slider" aria-roledescription="carousel">
+          <button class="slider-btn left" aria-label="Previous certificate">❮</button>
+          <div class="cert-viewport">
+            <div class="cert-track">
+              <!-- update src paths to your images -->
+              <figure class="cert-card"><img src="c:\Users\dell\Downloads\certificate1.jpeg" alt="certificate"><figcaption>AWS AI Practitioner Learning Plan</figcaption></figure>
+              <figure class="cert-card"><img src="c:\Users\dell\Downloads\certificate2.jpeg" alt="Python certificate"><figcaption>Cloud Aquisition</figcaption></figure>
+              <figure class="cert-card"><img src="c:\Users\dell\Downloads\certificate3.jpeg" alt="Cloud certificate"><figcaption>Essentials of Prompt Engineering</figcaption></figure>
+              <figure class="cert-card"><img src="c:\Users\dell\Downloads\certificate4.jpeg" alt="AI certificate"><figcaption>AWS Cloud Practitioner Essentials</figcaption></figure> 
+            </div>
+          </div>
+          <button class="slider-btn right" aria-label="Next certificate">❯</button>
+        </div>
+      </section>
+
+      <!-- 🌐 Social Section -->
+<section class="socials" id="socials">
+  <h2>Connect With Me</h2>
+  <div class="social-icons">
+    <!-- Gmail -->
+    <a href="mailto:ayushidhiman07@gmail.com" target="_blank" title="Email Me">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+    <!-- GitHub -->
+    <a href="https://github.com/AyushiiDhiman" target="_blank" title="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <!-- LeetCode -->
+    <a href="https://leetcode.com/https_ayushi/" target="_blank" title="LeetCode">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" class="leetcode-icon">
+    </a>
+    <!-- Instagram -->
+    <a href="https://instagram.com/aau.shhie" target="_blank" title="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+     <!-- LinkedIn-->
+    <a href="https://www.linkedin.com/in/ayushi-dhiman-946963216/" target="_blank" title="linkedin">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  </div>
+</section>
+
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form class="contact-form" action="#" method="post">
+          <input name="name" placeholder="Your name" required>
+          <input name="email" type="email" placeholder="Your email" required>
+          <textarea name="message" rows="4" placeholder="Your message" required></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </section>
+
+      <footer>
+        <p>© 2025 Ayushi Dhiman · Designed with ❤️</p>
+      </footer>
+    </main>
+  </div>
+
+  <!-- CERT MODAL -->
+  <div id="cert-modal" class="cert-modal" role="dialog" aria-hidden="true">
+    <button id="modal-close" class="modal-close" aria-label="Close">✕</button>
+    <img id="modal-img" src="" alt="Certificate full view">
+    <p id="modal-caption"></p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
