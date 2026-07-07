@@ -97,6 +97,6 @@ If you're here for internship opportunities, collabs, or just a good tech conver
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=b8a9ff&height=100&section=footer" />
 
-*Designed & built by Ayushi Dhiman · Dehradun, India · 2025*
+*Designed & built by Ayushi Dhiman · Dehradun, India · 2026*
 
 </div>
